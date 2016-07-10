@@ -1,0 +1,27 @@
+/*
+ * Heading styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+
+
+/*
+ * Container styles
+*/
+
+img {
+
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+}
