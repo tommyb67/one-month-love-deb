@@ -5,6 +5,7 @@
     <meta name="description" content="I Love Debbie!">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css" media="(max-width: 630px)">
 
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
@@ -13,25 +14,57 @@
   <body>
     <div class="container">
 
-      <img src="images/sedona_az_md.jpg" alt="sedona arizona">
+      <section class="hero clearfix">
+        <img src="images/sedona_az_md.jpg" alt="sedona arizona">
+      </section>
 
-      <div class="intro">
+      <section class="intro clearfix">
         <h1>I Love Debbie!</h1>
 
-        <img src="images/hotel_del_sunset_250.jpg" alt="hotel del coranado at sunset">
+        <aside class="right">
+          <figure class="image">
+            <img src="images/hotel_del_sunset_250.jpg" alt="hotel del coranado at sunset">
+            <figcaption>The Del Coronado Hotel</figcaption>
+          </figure>
+        </aside>
 
-        <p>This is Debbie's page!! I hope you enjoy this tribute to you and how special you are.<p>
-      </div>
+        <p>This is Debbie's page!! I hope you enjoy this tribute to you and how special you are. I hope you find a couple of things on here that you love the most and that bring a smile to your face!<p>
+        <p>You are beyond what I ever dreamed my wife could be.  Your such a great blessing and force of Love!</p>
+      </section>
 
-      <div class="contact">
+      <section class="contact clearfix">
 
-        <img src="images/clancy-majestic.png" alt="clancy the poodle">
-        <img src="images/libby_smile.png" alt="libby the poodle">
+        <aside class="left">
+          <figure>
+            <img src="images/clancy-majestic.png" alt="clancy the poodle">
+            <figcaption>Sophisticated Clancy</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/libby_smile.png" alt="libby the poodle">
+            <figcaption>Smiling Libby</figcaption>
+          </figure>
+        </aside>
 
 
         <p>Your the most beautiful and strongest person I know!</p>
         <p>All Day Every Day</p>
-      </div>
+        <p>Let's share an ice cream Sundae?<time>1700</time></p>
+        <p><address>The Good Steer<br>
+        2810 Middle Country Road<br>
+        Lake Grove, NY 11755
+        </address></p>
+        <p>Will you attend? Email <a href="mailto:tommybrennan@gmail.com?Subject=Yes I'll be there!">Yes!</a></p>
+      </section>
+
+      <section class="clearfix">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:600px;'><div id='gmap_canvas' style='height:440px;width:600px;'></div><div><small><a href="http://embedgooglemaps.com">                 embed google maps             </a></small></div><div><small><a href="https://termsofusegenerator.net">terms of use generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.85952899999999,-73.11201),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.85952899999999,-73.11201)});infowindow = new google.maps.InfoWindow({content:'<strong>Ice Cream Sundae?</strong><br>2810 Middle Country Rd, Lake Grove, NY 11755<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+          </script>
+
+          <section class="clearfix">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MwpmqMnngRk" frameborder="0" allowfullscreen></iframe>
+          </section>
+    </section>
     </div>
   </body>
 </html>

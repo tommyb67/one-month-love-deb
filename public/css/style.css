@@ -1,4 +1,28 @@
 /*
+ * General styles
+*/
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 3rem; /* 1rem = 16px */
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*
  * Heading styles
 */
 
@@ -10,18 +34,69 @@ h1, h2 {
   margin-bottom: 32px;
 }
 
-
-
 /*
  * Container styles
 */
 
-img {
-
-}
-
 .container {
   width: 600px;
   margin: 100px auto;
+}
+
+.container section:nth-child(even) {
+  background: light gray;
+}
+
+
+/*
+ * Hero styles
+*/
+
+.hero {
+  line-height: 0px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+
+section.intro, section.contact {
+  padding: 40px;
+}
+
+section.intro {
   background: #FFF;
 }
+
+
+/*
+ * aside styles
+*/
+
+
+aside.left {
+  width: 50%;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 24;
+}
+
+
+/*
+ * figure styles
+*/
+
+figcaption {
+  text-align: center;
+}
+
+
+
+
